@@ -71,8 +71,8 @@ def force_join(func):
         if not joined:
 
             keyboard = [
-                [InlineKeyboardButton("📢 Join Group", url=f"https://t.me/{@ccspybychk}")],
-                [InlineKeyboardButton("📡 Join Channel", url=f"https://t.me/{@cxcbychk}")],
+                [InlineKeyboardButton("📢 Join Group", url=f"https://t.me/{ccspybychk}")],
+                [InlineKeyboardButton("📡 Join Channel", url=f"https://t.me/{cxcbychk}")],
                 [InlineKeyboardButton("✅ I have joined", callback_data="check_joined")]
             ]
             reply_markup = InlineKeyboardMarkup(keyboard)
