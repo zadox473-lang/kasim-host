@@ -301,7 +301,7 @@ async def start_sequence(chat_id, context, user, is_new_message=True):
     # Send final message directly without animation
     try:
         # Fixed: Validate image URL and add fallback mechanism
-        image_url = "<a href="https://ibb.co/BH3pzPMS"><img src="https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg" "
+        image_url = "https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg"
         
         # Add debug logging for image URL validation
         import requests
