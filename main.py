@@ -309,9 +309,9 @@ async def start_sequence(chat_id, context, user, is_new_message=True):
             response = requests.head(image_url, timeout=5)
             if response.status_code != 200:
                 # Fallback to a default image if the URL is invalid
-                image_url = "<a href="https://ibb.co/BH3pzPMS"><img src="https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg""
+                image_url = "https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg"
         except:
-            image_url = "<a href="https://ibb.co/BH3pzPMS"><img src="https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg""
+            image_url = "https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg"
         
         # Send message with image and buttons - properly arranged in 2 columns
         await safe_send_photo(
