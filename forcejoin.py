@@ -15,8 +15,7 @@ GROUP_USERNAME = "https://t.me/+93XnIJWPzh0yYmY9"      # no +
 CHANNEL_ID = -1003856294516
 CHANNEL_USERNAME = "https://t.me/+r5zJqevpZqo1YmFl"    # no +
 
-FORCE_JOIN_IMAGE = "<a href="https://ibb.co/BH3pzPMS"><img src="https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg" "
-
+FORCE_JOIN_IMAGE = "https://i.ibb.co/9mgD8v5C/IMG-20260721-205609-751.jpg"
 # Logger
 logger = logging.getLogger("force_join")
 logger.setLevel(logging.INFO)
